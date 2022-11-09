@@ -14,7 +14,7 @@ The program then guesses the most frequent letter of this sample, and tests it a
 
 Functionally, the program is done, but just spitting the output into the terminal would leave the user dissatisfied, or at least unable to appreciate the decisions the AI made at each step of the process. Instead, the guesses are passed to and animated by a custom scene implemented using manim. This then creates a video which shows the process step by step, and determines how close the users word came to "winning".
 
-Note the animation quality defaults to 480p, but can be increased to 720p/1080p by passing "-q medium/high" respectively as command line arguments.
+Note the animation quality defaults to 480p, but can be increased to 720p/1080p by passing "-q medium/high" respectively as command line arguments. Running "python project.py" will automatically take care of the animation.
 
 ## Design Choices
 I would summarise my main design considerations as minimising guesses, preventing scope creep, and user experience, in rough order of importance.
